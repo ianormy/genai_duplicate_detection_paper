@@ -10,6 +10,22 @@ The actual dataset itself can be downloaded using the following links:
 
 - Musicbrainz 200K dataset: [musicbrainz-200-A01.csv](https://dbs.uni-leipzig.de/files/datasets/saeedi/musicbrainz-200-A01.csv.dapo)
 
+## Requirements
+
+You will need to install the packages listed in the [requirements.txt](requirements.txt) file in order to run the
+example notebooks. You will also need to install the **FAISS** package. If you're using conda then you can
+do it like this:
+
+To install the GPU version:
+```bash
+conda install -c conda-forge faiss-gpu
+```
+
+To install the CPU version:
+```bash
+conda install -c conda-forge faiss-cpu
+```
+
 ## Example Notebooks
 There are a number of notebooks that cover the following things:
 

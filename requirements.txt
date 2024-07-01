@@ -1,0 +1,9 @@
+networkx
+tqdm
+plotly
+umap-learn
+pandas
+matplotlib
+kaleido==0.1.0.post1
+jupyter
+numpy
